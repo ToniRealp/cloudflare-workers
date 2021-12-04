@@ -1,0 +1,16 @@
+name = "jobeed"
+type = "javascript"
+zone_id = ""
+account_id = "05e050123d455ec785a9ff262335c9dd"
+route = ""
+workers_dev = true
+compatibility_date = "2021-10-28"
+kv_namespaces = [
+ { binding = "POSTS", preview_id = "a687e0862bde4bca8c0cf059a6f8cc0d", id = "13ae5781425d4ef9a9f22b2c908603f7" }
+]
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
+
